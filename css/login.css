@@ -1,0 +1,170 @@
+/*HPP*/
+@media (max-width: 767.98px) {
+
+	.card-login {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.field-icon {
+		margin-top: 10px;
+	}
+
+	.form-control,
+	.form-text {
+		font-size: 14px;
+	}
+
+	.login {
+		margin-top: 100px;
+	}
+
+	.fa-eye {
+		font-size: 1rem;
+	}
+
+	.card-login {
+		padding: 50px;
+	}
+
+	.input-group .input-group-prepend .input-group-text {
+		height: 38px;
+		font-size: 14px
+	}
+
+	h4.text-header {
+		margin-bottom: 40px;
+	}
+
+	.btn-masuk {
+		font-size: 14px;
+		border-radius: 20px;
+		padding: 12px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+}
+
+/*DESKTOP*/
+@media (min-width: 992px) {
+
+	.container {
+		width: 30em;
+	}
+
+	.field-icon {
+		margin-top: 10px;
+	}
+
+	.login {
+		margin-top: 100px;
+	}
+
+	.fa-eye {
+		font-size: 1.2rem;
+	}
+
+	.card-login {
+		padding: 60px;
+	}
+
+	.input-group .input-group-prepend .input-group-text {
+		height: 38px;
+		font-size: 14px
+	}
+
+	h4.text-header {
+		margin-bottom: 40px;
+	}
+
+	.btn-masuk {
+		font-size: 14px;
+		border-radius: 20px;
+		padding: 12px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.field-icon {
+	float: right;
+	position: relative;
+	z-index: 2;
+}
+
+.card-login {
+	background-color: white;
+	border-radius: 10px;
+}
+
+.input-group .input-group-prepend .input-group-text {
+	color: #7595AA;
+	background: #fff;
+	border: none;
+}
+
+.form-control {
+	border: none;
+}
+
+h4.text-header {
+	text-align: center;
+	color: #198754;
+	font-weight: bold;
+}
+
+.btn-masuk {
+	background-color: #198754;
+	font-weight: bold;
+	color: white;
+	width: 100%;
+}
+
+.btn-masuk:hover {
+	background-color: #198754;
+	font-weight: bold;
+	color: white;
+}
+
+.register {
+	text-decoration: none;
+	color: #198754;
+}
+
+.register:hover {
+	color: #198754;
+}
+
+.input-group> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+	border-radius: 25px;
+	border: none;
+}
+
+.alert {
+	background: #e44e4e;
+	color: white;
+	text-align: center;
+	border: 1px solid #b32929;
+}
+
+.disabled {
+	cursor: not-allowed;
+}
+
+.disable {
+	pointer-events: none;
+}
